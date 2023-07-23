@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/Ajithxan/marketrix-live-1.8/assets/styles/styles.css"
+    />
+    <title>modal page</title>
+  </head>
+  <body>
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog shadow-lg">
+        <div class="mtx-modal-content">
+          <div class="mtx-modal-header">
+            <h5 class="mtx-modal-title text-purple">Contact us</h5>
+            <button type="button" class="close" onclick="closeModal()">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="mtx-form">
+              <div class="mtx-form-group">
+                <input
+                  name="name"
+                  type="text"
+                  class="mtx-form-control"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mtx-form-group">
+                <input
+                  name="designation"
+                  type="text"
+                  class="mtx-form-control"
+                  placeholder="Designation"
+                />
+              </div>
+              <div class="mtx-form-group">
+                <input
+                  type="email"
+                  class="mtx-form-control"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mtx-form-group">
+                <input
+                  type="text"
+                  class="mtx-form-control"
+                  name="company"
+                  placeholder="Company"
+                />
+              </div>
+              <div class="mtx-form-group">
+                <input
+                  type="text"
+                  class="mtx-form-control"
+                  name="phone"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="mtx-form-group">
+                <input
+                  type="text"
+                  class="mtx-form-control"
+                  name="inquery"
+                  placeholder="Inquery"
+                />
+              </div>
+              <div class="mtx-form-group">
+                <textarea
+                  rows="2"
+                  type="text"
+                  class="mtx-form-control"
+                  name="message"
+                  placeholder="Enter message..."
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="mtx-modal-footer">
+            <button
+              type="button"
+              class="btn btn-block mtx-btn-submit"
+              onclick="submit()"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

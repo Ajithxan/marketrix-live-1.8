@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Meeting Video screena</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="mtx-text-color-purple">Meeting Video Screena</h1>
+      <span class="mtx-text-color-purple">This is testing page</span>
+      <div onclick="clickMe()">Click meee</div>
+
+      <span>so everything is working now</span>
+    </div>
+    
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const meeting_id = urlParams.get("meeting_id");
+      const meeting_token = urlParams.get("meeting_token");
+      console.log(meeting_id, meeting_token);
+    </script>
+  </body>
+</html>
