@@ -1,6 +1,7 @@
 const meetVersion = "1.8"
 const CDNlink =  `https://cdn.jsdelivr.net/gh/Ajithxan/marketrix-live-${meetVersion}/`// 'http://localhost/creativehub/marketrix-live-1.7/'
 console.log(CDNlink);
+//கீழ இருக்குற 800 லைன் code  எப்படி run  ஆகுதுன்னு Aiyash தவிர  எவனுக்கும் தெரியாது கை வெச்ச நீ  செத்த 
 const startingTime = new Date().getTime()
 // const jqueryScript = document.createElement('script')
 const sweetAlert2Script = document.createElement('script')
